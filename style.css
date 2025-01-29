@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'NorseBold'; 
+  src: url('./fonts/Norse-Bold.otf') format('opentype'); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+
 input {
     border: 2px solid #000;
     margin-bottom: 15px;
