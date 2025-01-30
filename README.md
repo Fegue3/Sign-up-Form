@@ -10,9 +10,9 @@ Access the project demo through the following link:
 
 ## 🖼️ Preview
 
-![Project Preview](preview.png)
+![Project Preview](https://github.com/user-attachments/assets/6d150a6d-1e7a-42b9-bb5f-96226fdff361)
 
-> *Note: The image above represents the appearance of the site. If it does not display correctly, ensure the `preview.png` file is updated in the repository.*
+
 
 ## 📌 About the Project
 
