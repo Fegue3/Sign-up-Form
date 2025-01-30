@@ -18,13 +18,13 @@ html, body {
 }
 
 .image-section{
-  position: relative;
-  width: 100%;
+  position: sticky;
+  top: 0;
   height: 100vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  
+  background-color: #000;
 }
 
 .image-section img {
@@ -54,46 +54,54 @@ html, body {
 .form-section {
   display: flex;
   flex-direction: column;
-  gap: 10px; 
+  gap: 20px; 
   background-color: #a9abad; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  overflow-y: auto;
+
 }
 
 .header {
   text-align: center; 
-  padding: 20px; 
+  padding: 40px;
+  font-size: 1.5rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 20px;
   background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
-  gap: 2px;
+  gap: 20px;
   width: 70%;
+  
 }
 
 form h2{
-  padding: 0 0 0 30px;
+  font-size: 1.8rem;
+  padding: 0 0 0 50px;
+  margin-bottom: 0;
 }
 
 .form-grid > div {
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 50px;
 }
 
 .form-actions {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 20px;
   background-color: #a9abad; 
+  padding: 20px;
 }
 
 input {
@@ -124,7 +132,7 @@ button {
 }
 
 button:hover {
-  background-color: #314354;
+  background-color: #2a3642;
 }
 
 a {
@@ -134,4 +142,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+input:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
